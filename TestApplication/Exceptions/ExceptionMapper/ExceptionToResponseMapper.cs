@@ -10,7 +10,7 @@ namespace TestApplication.Exceptions.ExceptionMapper
             => exception switch
             {
                 UnluckyException ex => new ExceptionResponse(new {code=ex.code,reason=ex.Message},HttpStatusCode.BadRequest),
-                 _=> new ExceptionResponse(new {code="error", reason="There was an errror."},HttpStatusCode.InternalServerError)
+                 _=> new ExceptionResponse(new {code="error", reason="There was an error."},HttpStatusCode.InternalServerError)
             };
         
     }

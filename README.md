@@ -1,5 +1,5 @@
 # Exception Mapper
-Simple ASP.NET CORE 3.1 test project showing how to handle exceptions with Convey Stack.
+ASP.NET CORE 3.1 test project showing how to handle exceptions with Convey Stack in simple manner.
 
 # Included nugets
 - Convey

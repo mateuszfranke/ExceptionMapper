@@ -1,2 +1,5 @@
+### test first endpoint
+GET http://localhost:5000/api/test/call HTTP/1.1
+
 ### test second endpoint with exception
 GET http://localhost:5000/api/test/call2 HTTP/1.1
